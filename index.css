@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+header{
+    width: 100%;
+    height: 65vh;
+    background-image: url('https://res.cloudinary.com/victorakaps/image/upload/v1629132228/macbook-mouse_uxde1i.jpg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    min-height: 275px;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 0;
+}
+nav ul li{
+    list-style-type: none;  
+}
+nav ul li a{
+    margin:0.6rem 0.6rem 0.2rem 0.6rem;
+    padding: 0.6vw;
+    font-size: 1.2rem;
+    font-family:sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+a:hover{
+    border-bottom: 3px solid white;
+}
+header section{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vh;
+}
+.name{
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.icon-display{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    min-width: 235px;
+}
+.about{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+.portfolio-image{
+    position: absolute;
+    top: -18vh;
+    height: 12rem;
+    width: 12rem;
+}
+.portfolio-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px white;
+}
+.intro h1{
+    padding: 0px 18px;
+    margin-top: 150px;
+    font-size: 2rem;
+    text-align: center;
+    color: #2857a4;
+}
+.intro p{
+    color: grey;
+    font-style: italic;
+    text-align: center;
+    padding: 8px;
+    width: 65%;
+    margin:0 auto;
+    margin-bottom: 10vh;
+}
+.skills{
+    background-color: rgb(180, 178, 178);
+}
+.skills h1,.work-experience h1{
+    padding: 2.5rem 18px;
+    margin: 0;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #2857a4;
+}
+.skills-display{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skil{
+    position: relative;
+    background-color:white;
+    border-radius: 60px;
+    width: 10rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+.skil div{
+    position: absolute;
+    color:white;
+    font-weight: bold;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    height:100%;
+}
+.span1{
+    position: relative;
+    top:30%;
+    left: 6%;
+}
+.cpp{
+    background-color: blue;
+    width:70%;  
+}
+.html{
+    background-color: red;
+    width:85%;  
+}
+.css{
+    background-color: greenyellow;
+    width:75%;  
+}
+.javascript{
+    background-color: grey;
+    width:70%;  
+}
+.python{
+    background-color: red;
+    width:43%;  
+}
+.mongodb{
+    background-color: blue;
+    width:65%;  
+}
+@media only screen and (max-width:460px){
+    .name{
+        font-size: 2.1rem;
+    }
+}
